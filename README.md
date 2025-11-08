@@ -1,15 +1,15 @@
 Ticket Booking System – Spring Boot Project
 📖 Overview
-The Ticket Booking System is a full-stack Java Spring Boot application that allows users to search, book, and manage train tickets efficiently.
+The Ticket Booking System is a full-stack Java Spring Boot application that allows users to search, book, and manage event, show and movie ticket efficiently.
 This project demonstrates the use of Spring Boot, REST APIs, MySQL, and JPA/Hibernate for backend development.
 
 It’s designed with modular architecture and industry-level best practices, making it a great project.
 
 
 🚀 Features
-🔍 Search Trains – by route, source, or destination.
-🚆 View Available Trains – check all trains with details (name, time, fare, seats).
-🎫 Book Tickets – select train, enter passenger details, and confirm booking.
+🔍 Search Event – by name or location.
+🚆 View Available Events – check all events with details (name, location, time or seats).
+🎫 Book Tickets – select event, enter user details, and confirm booking.
 ❌ Cancel Tickets – cancel previously booked tickets.
 📧 View Bookings by Email – retrieve all bookings linked to a user email.
 💳 Payment Simulation – mock payment for ticket booking.
@@ -36,7 +36,7 @@ ticket-booking-system/
 │   │   ├── java/com/example/ticketbooking/
 │   │   │   ├── controller/      # REST Controllers
 │   │   │   ├── dto/             # Data Transfer Objects
-│   │   │   ├── entity/          # Entity Classes (Train, Ticket, User)
+│   │   │   ├── entity/          # Entity Classes (Event, Ticket, User)
 │   │   │   ├── repository/      # JPA Repositories
 │   │   │   ├── service/         # Business Logic Layer
 │   │   │   └── TicketBookingSystemApplication.java
